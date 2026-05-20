@@ -1,70 +1,116 @@
-# Getting Started with Create React App
+# Haneesh Yadav — Personal Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive developer portfolio built with **React**, featuring animated UI elements, a live contact form, and a fully data-driven architecture.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Live Demo
 
-### `npm start`
+[ View Portfolio](https://haneesh--portfolio.vercel.app/) <!-- Replace with your deployed URL -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Animated PC Setup Hero** — A custom three-monitor developer workstation animation with live-updating terminal code, spinning CPU fan, and rotating profile panels
+- **Data-Driven Architecture** — All content (projects, skills, education, experience) is centralized in `data.js` for easy updates
+- **Projects Showcase** — Highlighted projects with tech stack, key features, live demo and GitHub links
+- **Skills Grid** — Categorized tech stack displayed as interactive cards
+- **Timeline Sections** — Education and experience displayed as clean vertical timelines
+- **Contact Form** — Functional contact form with send feedback and email copy-to-clipboard
+- **Back to Top Button** — Smooth scroll with visibility toggle
+- **Fully Responsive** — Adapts cleanly across desktop, tablet, and mobile
+- **Dark Theme** — Deep dark UI with purple accent system
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Layer      | Technology                     |
+|------------|-------------------------------|
+| Framework  | React (Hooks)                  |
+| Styling    | Custom CSS with CSS Variables  |
+| Icons      | Remix Icons                    |
+| Deployment | Vercel                         |
+| Animation  | Vanilla JS + CSS Transitions   |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Structure
 
-### `npm run eject`
+```
+portfolio/
+├── public/
+│   └── assets/
+│       ├── images/
+│       │   ├── home-perfil.png      # Hero section profile image
+│       │   ├── profile.png          # About section profile image
+│       │   ├── project-1.png        # BhoomiSetu screenshot
+│       │   └── project-2.png        # Tambola Game screenshot
+│       └── resume/
+│           └── RESUME.pdf           # Downloadable resume
+├── src/
+│   ├── App.js                       # Main component (all sections + animations)
+│   ├── data.js                      # All site content lives here
+│   └── index.css                    # Global styles & CSS variables
+└── README.md
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Customisation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+All site content is managed from a single file — **`src/data.js`**. No need to dig through component code to update text.
 
-## Learn More
+| Export              | What it controls                                |
+|---------------------|-------------------------------------------------|
+| `PERSONAL`          | Name, tagline, profile images, resume URL       |
+| `ABOUT`             | Bio description and highlighted bold words      |
+| `STATS`             | Numbers displayed in the About section          |
+| `NAV_LINKS`         | Navigation menu items                           |
+| `SOCIAL_LINKS`      | Header social icon links                        |
+| `CONTACT`           | Email, location, footer social links            |
+| `PROJECTS`          | Project cards (title, tech, highlights, links)  |
+| `EXPERIENCE`        | Work / club experience timeline                 |
+| `EDUCATION`         | Education timeline entries                      |
+| `SKILL_CATEGORIES`  | Tech stack cards and skill tags                 |
+| `FOOTER`            | Footer owner name                               |
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📌 Featured Projects
 
-### Code Splitting
+### BhoomiSetu — Blockchain Land Records Platform
+- Digitises land records using blockchain for tamper-proof ownership history
+- End-to-end implementation from smart-contract layer to responsive React UI
+- **Tech:** React, JavaScript, Node.js, MySQL
+- [Live Demo](https://bhoomi-setu.vercel.app/) · [GitHub](https://github.com/haneesh-yadav/bhoomiSetu)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Tambola Game — Multiplayer Real-Time Housie
+- Supports 200+ concurrent players via Socket.IO namespaced rooms
+- Auto-claims, live number board, and host dashboard built from scratch
+- **Tech:** React, Node.js, Express, Socket.IO
+- [Live Demo](https://haneesh-tambola.vercel.app/) · [GitHub](https://github.com/haneesh-yadav/tambola)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contact
 
-### Making a Progressive Web App
+| Channel  | Details |
+|----------|---------|
+| Email    | [haneesh.yadavv@gmail.com](mailto:haneesh.yadavv@gmail.com) |
+| LinkedIn | [linkedin.com/in/haneesh-yadav](https://www.linkedin.com/in/haneesh-yadav/) |
+| GitHub   | [github.com/haneesh-yadav](https://github.com/haneesh-yadav) |
+| Location | Gurugram, India (Remote-friendly) |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project is open source and available under the [MIT License](LICENSE).
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div align="center">
+  Made with ☕ and React by <strong>Haneesh Yadav</strong>
+</div>
