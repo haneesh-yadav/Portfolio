@@ -8,7 +8,7 @@ export const PERSONAL = {
   profession2: "Developer",
   profileImgHome: "assets/images/home-perfil.png",
   profileImgAbout: "assets/images/profile.png",
-  resumeUrl: "assets/resume/RESUME.pdf",
+  resumeUrl: "assets/resume/haneesh-resume.pdf",
 };
 
 // ── ABOUT SECTION ────────────────────────────────────────
