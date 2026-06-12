@@ -69,7 +69,7 @@ export const PROJECTS = [
       "Built end-to-end from smart-contract layer to responsive React UI",
     ],
     img: "assets/images/project-1.png",
-    link: "https://bhoomi-setu.vercel.app/",
+    link: "https://bhoomi-setu.vercel.app",
     github: "https://github.com/haneesh-yadav/bhoomiSetu",
   },
   {
@@ -83,7 +83,7 @@ export const PROJECTS = [
       "Auto-claims, live number board, and host dashboard built from scratch",
     ],
     img: "assets/images/project-2.png",
-    link: "https://haneesh-tambola.vercel.app/",
+    link: "https://tambola-housiegame.vercel.app",
     github: "https://github.com/haneesh-yadav/tambola",
   },
 ];
